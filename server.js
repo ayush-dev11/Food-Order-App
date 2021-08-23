@@ -174,11 +174,7 @@ app.post("/cart.html", function(req, res) {
 app.listen(9000,function() {
     console.log("Listening to port 9000");
 })
-console.log("Hello");
 
-module.exports= {
-    name: 'Ayush'
-}
 
 
 
