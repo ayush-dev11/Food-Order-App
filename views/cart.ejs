@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cart.css">
+    
+    <title>Cart</title>
+</head>
+<body>
+    
+    <nav>
+        
+        <i class="material-icons restaurant">restaurant</i>
+        <h3 class="app-title">Food-Order-App</h3>
+        
+        
+
+        
+
+        
+    </nav>
+    <div style="margin: 0 auto; text-align: center;margin-bottom: 20px;">
+        <h1 style="font-family: sans-serif;color: rgb(3, 62, 150)">Orders-Cart</h1>
+
+        <div class="pizza">  
+            <h3 class="pizza-title" ><%= name %></h3>
+        </div>    
+
+    </div>
+    <div class="orders">
+        <ul>
+            <form action="cart.html" method="POST">
+                <% for(let i=0;i<orders.length;i++){ %>
+                    <li class="li-elem" style="text-align: center;"> <%= orders[i] %></li>
+
+
+                <% } %>
+
+                
+
+            </form>
+
+            
+            
+                
+        </ul>
+        <div class="div-class">
+            <button class="btn hide">Place Order</button>
+
+        </div>
+        
+        <p class=" this hide" style="font-family: sans-serif;color: rgb(3, 62, 150)">Order Placed</p>
+
+
+    </div>
+
+
+</body>
+<script src="../script3.js" type="module"></script>
+</html>
