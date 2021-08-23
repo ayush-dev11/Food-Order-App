@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="./style.css">
+
+
+  
+    <title>Foodie</title>
+
+</head>
+<body>
+    <nav>
+        
+        <i class="material-icons restaurant">restaurant</i>
+        <h3 class="app-title">Food-Order-App</h3>
+        
+        <p class="cart">Cart</p>
+         
+        <a ><i class="material-icons cart-icon">shopping_cart</i></a>
+        
+    </nav>
+    
+    <div class="menu">
+        <h1 style="color: white; margin-top: 10px;">Menu</h1>
+        <div class="pizza">
+            
+            <img class="pizza-img" src="https://thumbs.dreamstime.com/b/flat-circular-pizza-icon-sliced-whole-pizza-icon-flat-circular-pizza-icon-sliced-whole-pizza-icon-isolated-white-111191052.jpg">
+            <h3 class="pizza-title">Pizza</h3>
+        </div>
+
+        <div class="burger">
+            
+            <img class="pizza-img" src="https://thumbs.dreamstime.com/b/burger-circle-flat-green-icon-illustration-118055461.jpg">
+            <h3 class="pizza-title">Burger</h3>
+        </div>
+
+        <div class="taco">
+            
+            <img class="pizza-img" src="https://cdn2.vectorstock.com/i/1000x1000/35/06/taco-colorful-round-icon-vector-7443506.jpg">
+            <h3 class="pizza-title">Taco</h3>
+        </div>
+
+        <div class="noodles">
+            
+            <img class="pizza-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVE0XwvL-AsTr3PX3Y867BekZ8jfT5ZHQMwg&usqp=CAU">
+            <h3 class="pizza-title">Noodles</h3>
+        </div>
+
+        <div class="gulab-jamun">
+            
+            <img class="pizza-img" src="https://image.shutterstock.com/image-photo/indian-sweet-food-gulab-jamun-260nw-327609386.jpg">
+            <h3 class="pizza-title">Gulab Jamun</h3>
+        </div>
+        <button class="butLog" >Login</button>
+
+        
+    </div>
+    <div class="description">
+        <b><p class="para" style="text-align: center; color: rgb(3, 62, 150); font-size: 30px; margin-top: 20px; text-decoration-style: solid;font-family: 'Bubblegum Sans', cursive; position: relative; top: 100px;">Here at the Food-Order-App, we deliver the best food from a variety of our partner food outlets such as McDonald's, Taco Bell, Haldiram's and many more right at your doorstep. Select the food item you want to buy and proceed to checkout. Login before you place order</p></b>
+        <div class="pizza-order hide">
+            <div class="pizza order-title" style="text-align: center;">
+            
+                <img class="pizza-img" src="https://thumbs.dreamstime.com/b/flat-circular-pizza-icon-sliced-whole-pizza-icon-flat-circular-pizza-icon-sliced-whole-pizza-icon-isolated-white-111191052.jpg">
+                <h3 class="pizza-title">Pizza</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <img class="image" src="https://media.istockphoto.com/photos/cheesy-pepperoni-pizza-picture-id938742222?k=6&m=938742222&s=612x612&w=0&h=on_9ZYG1SG4Xgk7BLZSlaXJl8VYb6ZePDHTN6zukDHM=">
+            <br>
+            <br>
+            
+            <form class="pizza-order-form" style="margin-left: 50px;"  method="POST" action="/">
+                <b><p style="font-size:20px; color: rgb(3, 62, 150);font-family: 'Bubblegum Sans', cursive;margin-left: 30px; margin-left: 10%;">Select Size</p></b>
+                <select class="size" name="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+
+                
+                
+
+                <button type="submit" class="submit" name="type" value="pizza">Add To Cart</button>
+                
+
+            </form>
+        </div>
+
+        <div class="burger-order hide">
+            <div class="burger order-title">
+            
+                <img class="pizza-img" src="https://thumbs.dreamstime.com/b/burger-circle-flat-green-icon-illustration-118055461.jpg">
+                <h3 class="pizza-title">Burger</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <img class="image" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80">
+            <br>
+            <br>
+            
+            <form name="burger-order-form" value="burger" style="margin-left: 50px;"  method="POST" action="/">
+                <b><p style="font-size:20px; color: rgb(3, 62, 150);font-family: 'Bubblegum Sans', cursive;margin-left: 30px; margin-left: 10%;">Select Quantity</p></b>
+                <select class="quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                    <option value="3">8</option>
+                    <option value="3">9</option>
+                    <option value="3">10</option>
+                    <option value="3">11</option>
+                    <option value="3">12</option>
+                </select>
+
+                
+               
+
+                <button type="submit" class="submit" name="type" value="burger">Add To Cart</button>
+                
+
+            </form>
+
+            
+
+        </div>
+
+        <div class="taco-order hide">
+            <div class="taco order-title">
+            
+                <img class="pizza-img" src="https://cdn2.vectorstock.com/i/1000x1000/35/06/taco-colorful-round-icon-vector-7443506.jpg">
+                <h3 class="pizza-title">Taco</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <img class="image" src="https://media.istockphoto.com/photos/mexican-tacos-picture-id478372509?k=6&m=478372509&s=612x612&w=0&h=KFq4gK2hmFp0QLcdZTcXXm7eGKWvH7Q82lWuYcx-b90=">
+            <br>
+            <br>
+            
+            <form class="taco-order-form" style="margin-left: 50px;"  method="POST" action="/">
+                <b><p style="font-size:20px; color: rgb(3, 62, 150);font-family: 'Bubblegum Sans', cursive;margin-left: 30px; margin-left: 10%;">Select Quantity</p></b>
+                <select class="quantity" name="quantity">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+
+                
+                
+
+                <button type="submit" class="submit" name="type" value="taco">Add To Cart</button>
+                
+
+            </form>
+        </div>
+
+        <div class="gulab-jamun-order hide">
+            <div class="gulab-jamun order-title">
+            
+                <img class="pizza-img" src="https://image.shutterstock.com/image-photo/indian-sweet-food-gulab-jamun-260nw-327609386.jpg">
+                <h3 class="pizza-title">Gulab Jamun</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <img class="image" src="data:image/jpeg;base64,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">
+            
+            <br>
+            <br>
+            
+            <form class="gulab-jamun-order-form" action="/" method="POST" style="margin-left: 50px;">
+                <b><p style="font-size:20px; color: rgb(3, 62, 150);font-family: 'Bubblegum Sans', cursive;margin-left: 30px; margin-left: 10%;">Select Quantity</p></b>
+                <select class="quantity" name="quantity">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+
+                
+               
+
+                <button type="submit" class="submit" name="type" value="gulab jamun">Add To Cart</button>
+                
+
+            </form>
+        </div>
+
+        <div class="noodles-order hide">
+            <div class="noodles order-title">
+            
+                <img class="pizza-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVE0XwvL-AsTr3PX3Y867BekZ8jfT5ZHQMwg&usqp=CAU">
+                <h3 class="pizza-title">Noodles</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <img class="image" src="https://www.jessicagavin.com/wp-content/uploads/2018/01/chow-mein-1200.jpg" style="height: 200px; width: 250px;">
+            <br>
+            <br>
+            
+            <form class="noodles-order-form" style="margin-left: 50px;" method="POST" action="/">
+                <b><p style="font-size:20px; color: rgb(3, 62, 150);font-family: 'Bubblegum Sans', cursive;margin-left: 30px; margin-left: 10%;">Select Size</p></b>
+                <select class="size" name="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+
+                
+                
+
+                <button type="submit" class="submit" name="type" value="noodles">Add To Cart</button>
+                
+
+            </form>
+        </div>
+
+        
+
+        
+
+    </div>
+
+    
+   
+    
+</body>
+<script type="module" src="./script.js"></script>
+
+</html>

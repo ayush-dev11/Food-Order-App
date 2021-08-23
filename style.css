@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(65, 62, 62);
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    height: 60px;
+    
+}
+
+a{
+    cursor: pointer;
+}
+
+
+.menu {
+    text-align: center;
+    font-family: sans-serif;
+    float: left;
+    width: 40%;
+    background-color: black;
+    height: 600px;
+    background: linear-gradient(to top left, #28b487, #5ad447);
+}
+.description {
+    float: right;
+    width: 60%;
+    height: 600px;
+    background: linear-gradient(to top left, #ffa060, #ffdb3b);
+}
+
+.app-title {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+}
+
+.cart {
+    float: right;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: absolute;
+    right: 4.5%;
+    bottom: 90%;
+  
+   
+}
+
+.cart-icon {
+    position: relative;
+    left: 420px;
+    bottom: 0px
+}
+
+.pizza-img {
+    
+    width: 50px;
+    border-radius: 100%;
+
+}
+
+.pizza, .burger, .taco, .gulab-jamun, .noodles {
+    display: inline-block;
+    background-color: white;
+    width: 85%;
+    box-shadow: 7px 7px 10px grey;
+    border-radius: 10px;
+    margin-top: 30px ;
+    height: 55px;
+}
+.pizza-title {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+
+.pizza:hover {
+    background-color: rgba(245, 241, 241, 0.966);
+    cursor: pointer;
+}
+.burger:hover {
+    background-color: rgba(245, 241, 241, 0.966);
+    cursor: pointer;
+}
+.taco:hover {
+    background-color: rgba(245, 241, 241, 0.966);
+    cursor: pointer;
+}
+.gulab-jamun:hover {
+    background-color: rgba(245, 241, 241, 0.966);
+    cursor: pointer;
+}
+.noodles:hover {
+    background-color: rgba(245, 241, 241, 0.966);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+select {
+    height: 30px;
+    display: inline-block;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+
+.address {
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    
+
+}
+
+.order-title {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 8%;
+}
+
+.address-div {
+    position: relative;
+    bottom: 53px;
+    left: 40%;
+
+}
+
+.submit {
+    background: linear-gradient(to top left, rgb(247, 67, 67),rgb(255, 145, 2));
+    height: 30px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px orange;
+    cursor: pointer;
+    color: white;
+    
+}
+.submit:hover {
+    background: linear-gradient(to bottom right, rgb(247, 67, 67),rgb(255, 145, 2));
+
+}
+.image {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 30%;
+}
+
+.butLog {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background: linear-gradient(to top left, rgb(247, 67, 67),rgb(255, 145, 2));
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    
+}
+.butLog:hover {
+    background: linear-gradient(to bottom right, rgb(247, 67, 67),rgb(255, 145, 2)); 
+}
+
